@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6484f6ff-07c1-40e4-baa6-9fcdcf34856d" name="Changes" comment="alteração na forma de ler o arquivo completo">
-      <change beforePath="$PROJECT_DIR$/leitor-de-arquivos.php" beforeDir="false" afterPath="$PROJECT_DIR$/leitor-de-arquivos.php" afterDir="false" />
+    <list default="true" id="6484f6ff-07c1-40e4-baa6-9fcdcf34856d" name="Changes" comment="outras formas de ler o arquivo">
+      <change afterPath="$PROJECT_DIR$/escritor-lorem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.escritor-lorem.php">
+    <configuration name="escritor-lorem.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/escritor-lorem.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.1" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
     <configuration name="leitor-de-arquivos.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/leitor-de-arquivos.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -47,6 +56,11 @@
       </CommandLine>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.escritor-lorem.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674515583771</updated>
       <workItem from="1674515585014" duration="1828000" />
-      <workItem from="1674607391736" duration="781000" />
+      <workItem from="1674607391736" duration="1666000" />
     </task>
     <task id="LOCAL-00001" summary="Começo do curso">
       <created>1674516637899</created>
@@ -80,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674607849290</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="outras formas de ler o arquivo">
+      <created>1674608460640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674608460640</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Começo do curso" />
     <MESSAGE value="alteração na forma de ler o arquivo completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="alteração na forma de ler o arquivo completo" />
+    <MESSAGE value="outras formas de ler o arquivo" />
+    <option name="LAST_COMMIT_MESSAGE" value="outras formas de ler o arquivo" />
   </component>
 </project>
