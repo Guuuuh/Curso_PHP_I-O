@@ -3,14 +3,11 @@
 //Abre o arquivo para leitura.
 $arquivo = fopen('lorem.txt', 'r');
 
-//while para chamar o fgets, e fazer ele ler todas as linhas até o final do arquivo.
-//feof = end of file
-while (!feof($arquivo)) {
-    //fgets lê a string até a quebra de linha.
-    $lorem = fgets($arquivo);
+//filesize retorna o tamanho do arquivo(em Bytes)
+$tamanhoDoArquivo = filesize('lorem.txt');
+//fread tem que ser passado o arquivo que deseja ser lido, e o quanto em bytes você quer que leia
+$lorem = fread($arquivo, $tamanhoDoArquivo);
 
-    echo $lorem;
-}
-
+echo $lorem;
 //Fecha o arquivo
 fclose($arquivo);
