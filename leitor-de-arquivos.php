@@ -1,13 +1,11 @@
 <?php
 
-//Abre o arquivo para leitura.
-$arquivo = fopen('lorem.txt', 'r');
-
-//filesize retorna o tamanho do arquivo(em Bytes)
-$tamanhoDoArquivo = filesize('lorem.txt');
-//fread tem que ser passado o arquivo que deseja ser lido, e o quanto em bytes você quer que leia
-$lorem = fread($arquivo, $tamanhoDoArquivo);
+//abre o arquivo, lê o conteúdo, retorna uma string com o conteúdo e fecha o arquivo
+$lorem = file_get_contents('lorem.txt');
 
 echo $lorem;
-//Fecha o arquivo
-fclose($arquivo);
+
+//file retorna um array com cada linha se tornando um índice do array
+$lorem = file('lorem.txt');
+
+var_dump($lorem);

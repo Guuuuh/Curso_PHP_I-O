@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6484f6ff-07c1-40e4-baa6-9fcdcf34856d" name="Changes" comment="Começo do curso">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6484f6ff-07c1-40e4-baa6-9fcdcf34856d" name="Changes" comment="alteração na forma de ler o arquivo completo">
       <change beforePath="$PROJECT_DIR$/leitor-de-arquivos.php" beforeDir="false" afterPath="$PROJECT_DIR$/leitor-de-arquivos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1674515583771</updated>
       <workItem from="1674515585014" duration="1828000" />
-      <workItem from="1674607391736" duration="435000" />
+      <workItem from="1674607391736" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="Começo do curso">
       <created>1674516637899</created>
@@ -74,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674517343965</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="alteração na forma de ler o arquivo completo">
+      <created>1674607849290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674607849290</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Começo do curso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Começo do curso" />
+    <MESSAGE value="alteração na forma de ler o arquivo completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="alteração na forma de ler o arquivo completo" />
   </component>
 </project>
